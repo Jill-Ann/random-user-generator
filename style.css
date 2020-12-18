@@ -20,14 +20,14 @@ body {
   border-radius: 10%;
 }
 
-h2, p {
+h2,
+p {
   text-align: center;
 }
 
 img {
   display: block;
   margin: 1rem auto;
-  /*why is the margin only to the sides and not top and bottom? */
   max-width: 100%;
   border-radius: 50%;
 }
@@ -37,8 +37,6 @@ img {
     flex: 1 1 calc(50% - 2rem);
   }
 }
-
-/* why doesn't the page look responsive when I look in the developer tools but it works in the browser? */
 
 @media screen and (min-width: 600px) {
   .card {
